@@ -12,6 +12,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViewById(R.id.btn1).setOnClickListener(this);
+        findViewById(R.id.btn2).setOnClickListener(this);
+        findViewById(R.id.btn3).setOnClickListener(this);
+        findViewById(R.id.btn4).setOnClickListener(this);
     }
 
     @Override
@@ -20,6 +23,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn1:
                 Toast.makeText(this, "btn1点击了", Toast.LENGTH_SHORT).show();
                 break;
+            case R.id.btn2:
+                fun1();
+                break;
+            case R.id.btn3:
+                fun2();
+                break;
+            case R.id.btn4:
+                fun3();
+                break;
         }
     }
+    public void fun1(){
+        Toast.makeText(this, "fun1()", Toast.LENGTH_SHORT).show();
+    }
+    public void fun2(){
+        Toast.makeText(this, "fun2()", Toast.LENGTH_SHORT).show();
+    }
+    public void fun3(){
+        Toast.makeText(this, "fun3()", Toast.LENGTH_SHORT).show();
+    }
+
 }
