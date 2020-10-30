@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.makeText(this, "测试3", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(this, Test3Activity.class));
             }break;
-
         }
     }
 }
