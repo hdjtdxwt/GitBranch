@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn1).setOnClickListener(this);
         findViewById(R.id.btn2).setOnClickListener(this);
         findViewById(R.id.btn3).setOnClickListener(this);
+        findViewById(R.id.btn5).setOnClickListener(this);
     }
 
     @Override
@@ -30,6 +31,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn3: {
                 Toast.makeText(this, "测试3", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(this, Test3Activity.class));
+            }break;
+            case R.id.btn5: {
+                Toast.makeText(this, "测试5", Toast.LENGTH_SHORT).show();
             }break;
         }
     }
