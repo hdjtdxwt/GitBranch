@@ -26,4 +26,22 @@
         android:layout_height="wrap_content"
         android:text="跳转Test3"
         />
+    <TextView
+        android:id="@+id/test4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加的Test4"
+        />
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加的btn5"
+        />
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加的btn6"
+        />
 </LinearLayout>
